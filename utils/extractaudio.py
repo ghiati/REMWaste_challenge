@@ -1,6 +1,9 @@
 import os
 import yt_dlp
 from moviepy import VideoFileClip
+import imageio_ffmpeg
+
+os.environ["IMAGEIO_FFMPEG_EXE"] = imageio_ffmpeg.get_ffmpeg_exe()
 
 def download_video(url, out_file="downloaded_video.mp4"):
     ydl_opts = {
