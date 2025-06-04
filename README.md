@@ -16,7 +16,7 @@ This Streamlit application analyzes YouTube videos to classify English accents u
 ## Project Structure
 ```
 
-your-project/
+REMWaste_challenge/
 ├── app.py                # Main application script
 ├── utils/
 │   ├── audio\_extractor.py    # Video download & audio extraction
